@@ -8,7 +8,7 @@ if (burger) {
 }
 
 let allCars = [];
-const API = "http://127.0.0.1:5000/api";
+const API = "http://my-site-auto-production.up.railway.app/api";
 let currentChip = 'Все';
 
 // function loadUserCars() {
@@ -646,6 +646,7 @@ if (adImage && adPreviewImg && adPreviewBox) {
     if (text) text.style.display = 'none';
   });
 }
+
 
 
 
